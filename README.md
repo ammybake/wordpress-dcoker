@@ -34,6 +34,16 @@ $ nano .dockerignore
 docker-compose.yml
 .dockerignore
 
+
+$ curl -sSLo nginx-conf/options-ssl-nginx.conf https://raw.githubusercontent.com/certbot/certbot/master/certbot-nginx/certbot_nginx/_internal/tls_configs/options-ssl-nginx.conf
+
+When everythins is setsup just type
+ 
+ 
+$ docker-compose up -d 
+
+Go to the browser https://yoururl.com
+
 --------------------------
 
 
