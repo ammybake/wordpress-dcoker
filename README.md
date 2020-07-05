@@ -8,25 +8,33 @@ everything will be in ~/wordpress directory
 # so let's get started
 
 $ mkdir wordpress && cd wordpress
+
 $ mkdir nginx-conf
+
 $ nano nginx-conf/nginx.conf
 
-$ nano .env  ( pase these 3 lines )
+$ nano .env
+
 MYSQL_ROOT_PASSWORD=your_root_password
 MYSQL_USER=your_wordpress_database_user
 MYSQL_PASSWORD=your_wordpress_database_password
 
 $ git init
+
 $ nano .gitignore
+
 add .env into it
 
+
 $ nano .dockerignore
+
+
 .env
 .git
 docker-compose.yml
 .dockerignore
 
-
+--------------------------
 
 
 
