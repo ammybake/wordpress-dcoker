@@ -1,4 +1,4 @@
-# wordpress-doker
+# wordpress-docker
 Deploying wordpress with nginx , mysql and let's encrypt in digitalocean.com
 we are going to creat two file only !! 
 1. Docker-compose.yml 
